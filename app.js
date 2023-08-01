@@ -5,7 +5,7 @@ const port = 3001
 app.use (express.static("public") )
 
 app.use((req, res, next)=>{
-    console.log("Esto se ejecuta siempre");
+    
     next()
 })
 

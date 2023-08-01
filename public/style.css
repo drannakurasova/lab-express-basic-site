@@ -1,6 +1,7 @@
 body {
     background-image: url("images/fondo.png");
     background-size: cover;
+    text-align: center;
 }
 
 .btn {
@@ -18,3 +19,12 @@ body {
     display: flex;
     justify-content: center;
  }
+ .letters {
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+ }
+
+.div-tittle {
+    background-color: rgb(19, 22, 24);
+}
